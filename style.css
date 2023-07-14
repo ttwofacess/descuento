@@ -1,0 +1,47 @@
+img {
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+div {
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center;
+}
+
+div.pics {
+    border: 1px dotted red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+}
+
+div.pics div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.pics div label {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+div.pics {
+    display: inline-flex;
+}
+
+input {
+    display: block;
+    margin: 0 auto;
+}
+
+input[type="submit"] {
+    margin-top: 10px;
+}
