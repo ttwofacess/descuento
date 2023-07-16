@@ -12,12 +12,20 @@ div {
     align-items: center;
 }
 
+div#contPics {
+    /* border: 1px blueviolet dotted; */
+    width: 800px;
+    margin: 10px auto;
+}
+
 div.pics {
     border: 1px dotted red;
-    display: flex;
+    /* display: flex; */
+    display: inline-flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-grow: 1;
     height: 250px;
 }
 
@@ -33,13 +41,31 @@ div.pics div label {
     left: 0;
 }
 
-div.pics {
-    display: inline-flex;
+div.ingPrecio {
+    width: 800px;
+    height: 100px;
+    border: 1px red dotted;
+    margin: 10px auto;
+    /* display: inline-flex; */
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+label.lblPrc {
+    margin-left: 60px;
+    border: 1px violet dotted;
+    width: 95px;
 }
 
 input {
     display: block;
     margin: 0 auto;
+}
+
+input.inpPrc {
+    margin-left: 0; 
+    width: 50px;
 }
 
 input[type="submit"] {
