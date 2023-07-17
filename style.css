@@ -1,8 +1,51 @@
-img {
-    height: 200px;
-    width: 200px;
-    display: block;
-    margin: 0 auto;
+:root {
+    /* Colores */
+    --small-backgrounds: #add495;
+    --large-backgrounds: #f898a4;
+    --important: #80b7a2;
+    --footer: #ecdbc9;
+    --text: #ffffff;
+    --more-text: black;
+
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'DM Sans', sans-serif;
+}
+
+header {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	width: 100%;
+	height: 110px;
+	background-color: var(--small-backgrounds);
+}
+
+header h1 {
+    font-size: 6.3rem;
+    font-family: 'Roboto', sans-serif;
+    color: var(--text);
+}
+
+main {
+	/* display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	width: 100%;
+	min-width: 320px;
+	height: 460px; */
+    margin-top: 0;
+	background-color: var(--large-backgrounds);
 }
 
 div {
@@ -15,7 +58,8 @@ div {
 div#contPics {
     /* border: 1px blueviolet dotted; */
     width: 800px;
-    margin: 10px auto;
+    /* margin: 10px auto; */
+    margin: 0 auto;
 }
 
 div.pics {
@@ -29,11 +73,18 @@ div.pics {
     height: 250px;
 }
 
-div.pics div {
+img {
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* div.pics div {
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} */
 
 div.pics div label {
     position: absolute;
