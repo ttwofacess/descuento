@@ -73,6 +73,15 @@ div.pics {
     height: 250px;
 }
 
+/* div.pics div label { */
+    .pics label { 
+        /* position: absolute;
+        top: 0;
+        left: 0; */
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 2.5rem;
+    }
+
 img {
     height: 200px;
     width: 200px;
@@ -86,12 +95,6 @@ img {
     align-items: center;
 } */
 
-div.pics div label {
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
 div.ingPrecio {
     width: 800px;
     height: 100px;
@@ -104,6 +107,8 @@ div.ingPrecio {
 }
 
 label.lblPrc {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
     margin-left: 60px;
     border: 1px violet dotted;
     width: 95px;
