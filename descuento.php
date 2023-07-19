@@ -19,7 +19,7 @@ session_start();
 <body>
     <header><h1>Superstore</h1></header>
     <main>
-        <form action="#" method="POST">
+        <form action="#" method="POST"><br />
         <div id="contPics">
             <div class="pics">
                 <label for="img1">Reverse T-shirt</label>
@@ -48,19 +48,20 @@ session_start();
             <input type="number" class="inpPrc" name="prc3" id="prc3">
         </div>
 
-            <div>
-                <label for="dsct1">Descuento aplicado</label>    
-                <input type="text" name="dsct1">
+        <div class="ingDsct">
+            <label for="dsct1">Descuento aplicado</label>    
+            <input type="text" name="dsct1">
 
-                <label for="dsct2">Descuento aplicado</label>
-                <input type="text" name="dsct2">
+            <label for="dsct2">Descuento aplicado</label>
+            <input type="text" name="dsct2">
 
-                <label for="dsct3">Descuento aplicado</label>
-                <input type="text" name="dsct3">
-            </div>
+            <label for="dsct3">Descuento aplicado</label>
+            <input type="text" name="dsct3">
+        </div>
 
-            <input type="submit" value="Consultar">
+        <input type="submit" value="Consultar"><br />
         </form>
     </main>
+    <footer><p>by azazel</p></footer>
 </body>
 </html>
