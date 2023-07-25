@@ -41,10 +41,10 @@ echo "
             <input type='number' class='inpPrc' name='prc1' value='".$_SESSION['prc1']."' id='prc1'>
 
             <label for='prc2' class='lblPrc'>Ingrese precio</label>
-            <input type='number' class='inpPrc' name='prc2' id='prc2'>
+            <input type='number' class='inpPrc' name='prc2' value='".$_SESSION['prc2']."' id='prc2'>
 
             <label for='prc3' class='lblPrc'>Ingrese precio</label>
-            <input type='number' class='inpPrc' name='prc3' id='prc3'>
+            <input type='number' class='inpPrc' name='prc3' value='".$_SESSION['prc3']."' id='prc3'>
         </div>
 
         <div class='ingDsct'>
@@ -52,10 +52,10 @@ echo "
             <input type='text' name='dsct1' value='".$_SESSION['dsct1']."'>
 
             <label for='dsct2'>Descuento aplicado</label>
-            <input type='text' name='dsct2'>
+            <input type='text' name='dsct2' value='".$_SESSION['dsct2']."' >
 
             <label for='dsct3'>Descuento aplicado</label>
-            <input type='text' name='dsct3'>
+            <input type='text' name='dsct3' value='".$_SESSION['dsct3']."' >
         </div>
 
         <input type='submit' value='Consultar'><br />
