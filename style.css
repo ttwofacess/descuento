@@ -6,7 +6,6 @@
     --footer: #ecdbc9;
     --text: #ffffff;
     --more-text: black;
-
 }
 
 * {
@@ -129,7 +128,6 @@ footer {
 	text-align: center;
 	justify-content: center; 
 	width: 100%;
-	/* height: 70px; */
     height: 90px;
 	background-color: var(--footer);
 }
@@ -139,3 +137,71 @@ footer p {
 	font-size: 2.4rem;
 	color: var(--more-text);
 }
+
+@media screen and (max-width: 640px) {
+  
+    /* Styles for screens with a maximum width of 640px */
+    
+    div#contPics {
+      width: 400px;
+    }
+  
+    div.pics {
+      width: 100%;
+      height: auto;
+    }
+  
+    .pics img {
+      height: 150px;
+      width: 150px;
+    }
+  
+    div.ingPrecio {
+      width: 400px;
+    }
+  
+    div.ingDsct {
+      width: 400px;
+    }
+  }
+  
+  @media screen and (min-width: 641px) and (max-width: 720px) {
+    
+    /* Styles for screens with a minimum width of 641px and a maximum width of 720px */
+    
+    div#contPics {
+      width: 500px;
+    }
+  
+    div.pics {
+      width: 50%;
+      height: auto;
+    }
+  
+    .pics img {
+      height: 120px;
+      width: 120px;
+    }
+
+    div.ingPrecio {
+        width: 500px;
+    }
+
+    div.ingDsct {
+        width: 500px;
+    }
+  }
+
+  @media screen and (min-width: 721px) and (max-width: 1024px) {
+    div#contPics {
+        width: 600px;
+    }
+
+    div.ingPrecio {
+        width: 600px;
+    }
+
+    div.ingDsct {
+        width: 600px;
+    }
+  }
