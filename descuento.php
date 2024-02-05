@@ -19,43 +19,43 @@ echo "
     <header><h1>Superstore</h1></header>
     <main>
         <form action='exec.php' method='POST'><br />
-        <div id='contPics'>
-            <div class='pics'>
-                <label for='img1'>Reverse T-shirt</label>
-                <img src='img/rem-removebg-preview.png' alt='t-shirt' id='img1'><br />
+        <div class='divsGralCfg'>
+            <div class='pics divsGralCfg'>
+                <label class='lblimg' id='lblimg1' for='img1'>Reverse T-shirt</label>
+                <img id='img1' src='img/rem-using.png' alt='t-shirt'><br />
             </div>
 
-            <div class='pics'>
-                <label for='img2'>Aesthetic Suglasses</label>
-                <img src='img/sha-removebg-preview.png' alt='shades' id='img2'>
+            <div class='pics divsGralCfg'>
+                <label class='lblimg' id='lblimg2' for='img2'>Aesthetic Suglasses</label>
+                <img id='img2' src='img/sha-using.png' alt='shades'>
             </div>
 
-            <div class='pics'>
-                <label for='img3'>Sneakers</label>
-                <img src='img/zap-removebg-preview.png' alt='sneakers' id='img3'>
+            <div class='pics divsGralCfg'>
+                <label class='lblimg' for='img3'>Sneakers</label>
+                <img id='img3' src='img/zap-using.png' alt='sneakers'>
             </div>
         </div>
 
-        <div class='ingPrecio'>
-            <label for='prc1' class='lblPrc'>Ingrese precio</label>
-            <input type='number' class='inpPrc' name='prc1' value='".$_SESSION['prc1']."' id='prc1'>
+        <div class='divsGralCfg nopics'>
+            <label class='lblPrc' id='ingPrecio_lblitem1' for='prc1' >Ingrese precio</label>
+            <input class='inpPrc' id='prc1' type='number' name='prc1' value='".$_SESSION['prc1']."'>
 
-            <label for='prc2' class='lblPrc'>Ingrese precio</label>
-            <input type='number' class='inpPrc' name='prc2' value='".$_SESSION['prc2']."' id='prc2'>
+            <label class='lblPrc' id='ingPrecio_lblitem2' for='prc2'>Ingrese precio</label>
+            <input class='inpPrc' id='prc2' type='number' name='prc2' value='".$_SESSION['prc2']."'>
 
-            <label for='prc3' class='lblPrc'>Ingrese precio</label>
-            <input type='number' class='inpPrc' name='prc3' value='".$_SESSION['prc3']."' id='prc3'>
+            <label class='lblPrc' id='ingPrecio_lblitem3' for='prc3'>Ingrese precio</label>
+            <input class='inpPrc' id='prc3' type='number'  name='prc3' value='".$_SESSION['prc3']."'>
         </div>
 
-        <div class='ingDsct'>
-            <label for='dsct1'>Descuento aplicado</label>    
-            <input type='text' name='dsct1' value='".$_SESSION['dsct1']."'>
+        <div class='divsGralCfg ingDsct'>
+            <label class='lblPrc' id='ingDsct_lblitem1' for='dsct1'>Descuento aplicado</label>    
+            <input class='inpPrc' id='dsct1' type='text' name='dsct1' value='".$_SESSION['dsct1']."'>
 
-            <label for='dsct2'>Descuento aplicado</label>
-            <input type='text' name='dsct2' value='".$_SESSION['dsct2']."' >
+            <label class='lblPrc' id='ingDsct_lblitem2' for='dsct2'>Descuento aplicado</label>
+            <input class='inpPrc' id='dsct2' type='text' name='dsct2' value='".$_SESSION['dsct2']."' >
 
-            <label for='dsct3'>Descuento aplicado</label>
-            <input type='text' name='dsct3' value='".$_SESSION['dsct3']."' >
+            <label class='lblPrc' id='ingDsct_lblitem3' for='dsct3'>Descuento aplicado</label>
+            <input class='inpPrc' id='dsct3' type='text' name='dsct3' value='".$_SESSION['dsct3']."' >
         </div>
 
         <input type='submit' value='Consultar'><br />
