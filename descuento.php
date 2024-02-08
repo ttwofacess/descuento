@@ -16,7 +16,14 @@ echo "
     <link href='https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap' rel='stylesheet'>
 </head>
 <body>
-    <header><h1>Superstore</h1></header>
+    <header>
+        <h1>Superstore</h1>
+        <nav>
+            <a href='#art1'>T-shirts</a>
+            <a href='#art2'>Sunglasses</a>
+            <a href='#art3'>Sneakers</a>
+        </nav>
+    </header>
     <main>
         <form action='exec.php' method='POST'><br />
         <div class='divsGralCfg'>
