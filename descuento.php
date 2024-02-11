@@ -37,6 +37,17 @@ echo "
             <input class='inpPrc' id='dsct1' type='text' name='dsct1' value='".$_SESSION['dsct1']."'>
         </article>
 
+        <article id='art2' class='card'>
+            <figure>
+                <img src='img/sha-using.png' alt='shades' width='200' height='200'>
+                <figcaption>Aesthetic Suglasses</figcaption>
+            </figure>
+            <label class='lblPrc' id='ingPrecio_lblitem2' for='prc2'>Ingresar precio de venta</label>
+            <input class='inpPrc' id='prc2' type='number' name='prc2' value='".$_SESSION['prc2']."'>
+            <label class='lblPrc' id='ingDsct_lblitem2' for='dsct2'>Descuento aplicado</label>
+            <input class='inpPrc' id='dsct2' type='text' name='dsct2' value='".$_SESSION['dsct2']."' >
+        </article>
+
         <div class='divsGralCfg'>
             
             <!-- <div class='pics divsGralCfg'>
@@ -45,10 +56,11 @@ echo "
             </div> 
             --> 
 
-            <div class='pics divsGralCfg'>
+            <!-- <div class='pics divsGralCfg'>
                 <label class='lblimg' id='lblimg2' for='img2'>Aesthetic Suglasses</label>
                 <img id='img2' src='img/sha-using.png' alt='shades'>
             </div>
+            -->
 
             <div class='pics divsGralCfg'>
                 <label class='lblimg' for='img3'>Sneakers</label>
@@ -61,8 +73,9 @@ echo "
             <input class='inpPrc' id='prc1' type='number' name='prc1' value='".$_SESSION['prc1']."'>
             -->
 
-            <label class='lblPrc' id='ingPrecio_lblitem2' for='prc2'>Ingrese precio</label>
+            <!-- <label class='lblPrc' id='ingPrecio_lblitem2' for='prc2'>Ingrese precio</label>
             <input class='inpPrc' id='prc2' type='number' name='prc2' value='".$_SESSION['prc2']."'>
+            -->
 
             <label class='lblPrc' id='ingPrecio_lblitem3' for='prc3'>Ingrese precio</label>
             <input class='inpPrc' id='prc3' type='number'  name='prc3' value='".$_SESSION['prc3']."'>
@@ -73,8 +86,9 @@ echo "
             <input class='inpPrc' id='dsct1' type='text' name='dsct1' value='".$_SESSION['dsct1']."'>
             -->
 
-            <label class='lblPrc' id='ingDsct_lblitem2' for='dsct2'>Descuento aplicado</label>
+            <!-- <label class='lblPrc' id='ingDsct_lblitem2' for='dsct2'>Descuento aplicado</label>
             <input class='inpPrc' id='dsct2' type='text' name='dsct2' value='".$_SESSION['dsct2']."' >
+            -->
 
             <label class='lblPrc' id='ingDsct_lblitem3' for='dsct3'>Descuento aplicado</label>
             <input class='inpPrc' id='dsct3' type='text' name='dsct3' value='".$_SESSION['dsct3']."' >
