@@ -44,7 +44,7 @@ echo "
             </figure>
             <label class='lblPrc' id='ingPrecio_lblitem2' for='prc2'>Ingresar precio de venta</label>
             <input class='inpPrc' id='prc2' type='number' name='prc2' value='".$_SESSION['prc2']."'>
-            <label class='lblPrc' id='ingDsct_lblitem2' for='dsct2'>Descuento aplicado</label>
+            <label class='lblPrc' id='ingDsct_lblitem2' for='dsct2'>Con 35% de desc.</label>
             <input class='inpPrc' id='dsct2' type='text' name='dsct2' value='".$_SESSION['dsct2']."' >
         </article>
 
@@ -55,7 +55,7 @@ echo "
             </figure>
             <label class='lblPrc' id='ingPrecio_lblitem3' for='prc3'>Ingrese precio</label>
             <input class='inpPrc' id='prc3' type='number'  name='prc3' value='".$_SESSION['prc3']."'>
-            <label class='lblPrc' id='ingDsct_lblitem3' for='dsct3'>Descuento aplicado</label>
+            <label class='lblPrc' id='ingDsct_lblitem3' for='dsct3'>Con 35% de desc.</label>
             <input class='inpPrc' id='dsct3' type='text' name='dsct3' value='".$_SESSION['dsct3']."' >
         </article>
 
