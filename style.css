@@ -35,14 +35,20 @@ body {
     flex-direction: column;
 }
 
-header {
-	display: flex;
+header, footer {
+    position: sticky;
+    text-align: center;
+	/* display: flex;
 	flex-direction: column;
 	justify-content: center;
 	text-align: center;
 	width: 100%;
-	height: 110px;
+	height: 110px; */
 	background-color: var(--small-backgrounds);
+}
+
+header {
+    top: 0;
 }
 
 header h1 {
