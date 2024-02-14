@@ -101,6 +101,11 @@ main {
     align-items: center;
 }
 
+.card figure {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
 /* div {
     display: flex;
     flex-direction: row; 
