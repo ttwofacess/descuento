@@ -48,7 +48,7 @@ echo "
             <input class='inpPrc' id='dsct2' type='text' name='dsct2' value='".$_SESSION['dsct2']."' >
         </article>
 
-        <article>
+        <article id='art3' class='card'>
             <figure>
             <img src='img/zap-using.png' alt='sneakers' width='200' height='200'>
             <figcaption>Sneakers</figcaption>

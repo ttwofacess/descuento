@@ -87,7 +87,21 @@ main {
 	background-color: var(--large-backgrounds);
 }
 
-div {
+/* || PROFILE CARD */
+.card {
+    scroll-margin-top: 8rem;
+    width: min(100%, 350px);
+    background-color: #cbd5e1;
+    border: 2px solid #fff;
+    border-radius: 15px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* div {
     display: flex;
     flex-direction: row; 
     justify-content: center;
@@ -95,13 +109,13 @@ div {
 }
 
 div#contPics {
-    /* border: 1px blueviolet dotted;  */
+    border: 1px blueviolet dotted;  
     width: 800px;
     margin: 0 auto;
 }
 
 div.pics {
-    /* border: 1px dotted red; */
+    border: 1px dotted red; 
     display: inline-flex;
     flex-direction: column;
     flex-grow: 1;
@@ -123,12 +137,12 @@ img {
 div.ingPrecio {
     width: 800px;
     height: 75px;
-    /* border: 1px red dotted; */
+    border: 1px red dotted; 
     margin: 10px auto;
 }
 
 label.lblPrc {
-    /* border: 1px violet dotted; */
+    border: 1px violet dotted; 
     font-family: 'Roboto', sans-serif;
     font-size: 1.5rem;
     margin-left: 60px;
@@ -146,14 +160,14 @@ input.inpPrc {
 }
 
 div.ingDsct {
-    /* border: 1px dashed blue; */
+    border: 1px dashed blue; 
     width: 800px;
     height: 75px;
     margin: 10px auto;
 }
 
 .ingDsct label {
-    /* border: 1px black dashed; */
+    border: 1px black dashed; 
     font-family: 'Roboto', sans-serif;
     font-size: 1.5rem;
     margin-left: 40px;
@@ -167,7 +181,7 @@ div.ingDsct {
 
 input[type="submit"] {
     margin-top: 5px;
-}
+} */
 
 footer {
 	display: flex;
