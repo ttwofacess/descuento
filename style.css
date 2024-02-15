@@ -118,6 +118,10 @@ main {
     text-align: center;
 }
 
+.card label {
+    font-size: 1.6rem;
+}
+
 /* div {
     display: flex;
     flex-direction: row; 
