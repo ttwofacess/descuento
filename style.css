@@ -81,6 +81,18 @@ main {
 	background-color: var(--large-backgrounds);
 }
 
+footer {
+    bottom: 0;
+    background-color: var(--footer);
+    height: 45px;
+}
+
+footer p {
+    margin-top: 10px;
+	font-size: 2.4rem;
+	color: var(--more-text);
+}
+
 /* || PROFILE CARD */
 .card {
     scroll-margin-top: 8rem;
@@ -114,22 +126,6 @@ main {
 
 .card label {
     font-size: 1.6rem;
-}
-
-footer {
-	display: flex;
-	flex-direction: column;
-	text-align: center;
-	justify-content: center; 
-	width: 100%;
-    height: 90px;
-	background-color: var(--footer);
-}
-
-footer p {
-	margin-left: 60%;
-	font-size: 2.4rem;
-	color: var(--more-text);
 }
 
 
